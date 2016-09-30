@@ -1,21 +1,26 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="COMP229_Week03_Assignment1.Site" %>
 
 <!DOCTYPE html>
-
+<!-- Name: Xuemei Wang -->
+<!-- Student ID: 300853384 -->
+<!-- Date: September 29, 2016 -->
+<!-- Site.Master file -->
 <html lang="en">
 <head runat="server">
-        <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
-<!-- CSS Section -->
-        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/app.css" rel="stylesheet" />
 </head>
-<body style="background-color:lightpink">
+<body style="background-color: lightpink">
     <form id="form1" runat="server">
+
         <!-- Main Navigation -->
         <header role="navigation">
             <nav class="navbar navbar-inverse">
@@ -28,7 +33,8 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="Default.aspx"><img src="Assets/images/logo.png"></a>
+                        <a class="navbar-brand" href="Default.aspx">
+                            <img src="Assets/images/logo.png"></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -46,25 +52,23 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-        <!-- Main Content -->
 
-    <main>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </main>
-          <!-- Footer Section -->
-                <!-- Footer Bar-->
+        <!-- Main Content -->
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+
+        <!-- Footer Section -->
+        <!-- Footer Bar-->
         <footer role="contentinfo">
             <nav class="navbar navbar-default navbar-fixed-bottom">
                 <div class="container">
-                    <h4>&copy;Xuemei Wang-comp229-Assignment1 </h4>
+                    <h4>&copy;Xuemei Wang - COMP229 Assignment1 </h4>
                 </div>
             </nav>
         </footer>
-
     </form>
-  
 
     <!-- Scripts Section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
@@ -73,4 +77,3 @@
 
 </body>
 </html>
- 

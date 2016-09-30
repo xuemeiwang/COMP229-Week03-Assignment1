@@ -1,6 +1,10 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="COMP229_Week03_Assignment1.Contact1" %>
 
 <!DOCTYPE html>
+<!-- Name: Xuemei Wang -->
+<!-- Student ID: 300853384 -->
+<!-- Date: September 29, 2016 -->
+<!-- Contact.Master file -->
 
 <html lang="en">
 <head runat="server">
@@ -75,7 +79,7 @@
             <label for="MessageTextBox">Message</label>
             <asp:TextBox CssClass="form-control" ID="MessageTextBox" runat="server" required="true"></asp:TextBox>
         </div>
-            <asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg" runat="server" Text="Send" />
+                <a href="Default.aspx"><asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg" runat="server" Text="Send" PostBackUrl="Default.aspx" /></a>
       
              </div>
         </div>
@@ -85,7 +89,7 @@
         <footer role="contentinfo">
             <nav class="navbar navbar-default navbar-fixed-bottom">
                 <div class="container">
-                    <h4>&copy;Xuemei Wang-comp229-Assignment1 </h4>
+                    <h4>&copy;Xuemei Wang - COMP229 Assignment1 </h4>
                 </div>
             </nav>
         </footer>

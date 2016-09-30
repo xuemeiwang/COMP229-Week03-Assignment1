@@ -1,4 +1,9 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="COMP229_Week03_Assignment1.Contact" %>
+<%-- Name: Xuemei Wang --%>
+<%-- Student ID: 300853384 --%>
+<%-- Date: September 29, 2016 --%>
+<%-- Contact.aspx file --%>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <div class="container">
         <div class="row">

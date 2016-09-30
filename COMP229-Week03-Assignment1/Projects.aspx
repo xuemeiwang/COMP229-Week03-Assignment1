@@ -1,4 +1,9 @@
 ﻿<%@ Page Title="Projects" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Projects.aspx.cs" Inherits="COMP229_Week03_Assignment1.Projects" %>
+<%-- Name: Xuemei Wang --%>
+<%-- Student ID: 300853384 --%>
+<%-- Date: September 29, 2016 --%>
+<%-- Projects.aspx file --%>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
         <div class="row">
